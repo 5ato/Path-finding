@@ -1,0 +1,12 @@
+.grid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tile {
+    width: 24px;
+    height: 24px;
+    background-color: #FBFAF8;
+    border: 0.5px solid #004643;
+}
