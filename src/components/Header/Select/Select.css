@@ -2,3 +2,12 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and ((max-height: 850px) or (max-width: 1080px)) {
+    .select__wrapper {
+        font-size: 0.9rem;
+    }
+    .select__wrapper select {
+        font-size: 0.8em;
+    }
+}

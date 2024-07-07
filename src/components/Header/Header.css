@@ -20,3 +20,15 @@ header.header {
     align-items: end;
     gap: 20px;
 }
+
+@media screen and ((max-height: 850px) or (max-width: 1080px)) {
+    header.header {
+        height: 4rem;
+      }
+}
+
+@media screen and (max-width: 800px){
+    header.header {
+        height: 7rem;
+      }
+  }

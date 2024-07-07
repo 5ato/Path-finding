@@ -13,3 +13,9 @@
     width: 100%;
     height: 100%;
 }
+@media screen and ((max-height: 850px) or (max-width: 1080px)) {
+    .button__wrapper button {
+        height: 1.5rem;
+        width: 2.5rem;
+      }
+}

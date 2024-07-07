@@ -14,8 +14,8 @@ body {
 }
 
 .default-Tile {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   background-color: #F1EDF6;
   border: 1px solid #221F25;
 }
@@ -34,6 +34,34 @@ body {
 }
 .tile-path {
   background-color: #C2F970;
+}
+
+@media screen and ((max-height: 850px) or (max-width: 1080px)) {
+  .default-Tile {
+    width: 14px;
+    height: 14px;
+  }
+  .nav h1 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .default-Tile {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .default-Tile {
+    width: 8px;
+    height: 8px;
+  }
 }
 
 * {
