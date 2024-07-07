@@ -1,11 +1,10 @@
 import { ChangeEvent } from "react"
-import { MazeSelectType } from "../../../utils/types"
 import './Select.css'
 
 interface SelectProps {
-    value: string
+    value: string | number
     onChange: (event: ChangeEvent<HTMLSelectElement>) => void
-    options: MazeSelectType[]
+    options: {value: string | number, name: string}[]
     label: string
     isDisable?: boolean
 }

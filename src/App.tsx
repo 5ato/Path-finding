@@ -7,7 +7,7 @@ function App() {
   const isVisualizationRunningRef = useRef(false)
   return (
     <>
-      <Header/>
+      <Header isVisualizationRunningRef={isVisualizationRunningRef}/>
       <Grid isVisualizationRunningRef={isVisualizationRunningRef}></Grid>
     </>
   );

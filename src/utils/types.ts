@@ -1,8 +1,12 @@
 export type AlgorithmType = 'DIJKSTRA' | 'BFS' | 'DFS'
+export type AlgorithmNameType = 'Декстра' | 'Обход в ширину' | 'Обход в глубину'
+export type AlgorithmSelectType = {
+    value: AlgorithmType
+    name: AlgorithmNameType
+}
 
 export type MazeType = 'NONE' | 'BINARY_TREE' | 'RECURSIVE DIVISION'
 export type MazeNameType = 'Без пазла' | 'Бинарное дерево' | 'Рекурсивное деление'
-
 export type MazeSelectType = {
     value: MazeType
     name: MazeNameType

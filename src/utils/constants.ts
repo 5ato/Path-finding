@@ -1,4 +1,4 @@
-import { MazeSelectType, SpeedSelectType, TileType } from "./types"
+import { AlgorithmSelectType, MazeSelectType, SpeedSelectType, TileType } from "./types"
 
 export const MAX_ROW = 39
 export const MAX_COLUMN = 39
@@ -37,4 +37,10 @@ export const SPEEDS: SpeedSelectType[] = [
     {name: 'Медленно', value: 2},
     {name: 'Нормально', value: 1},
     {name: 'Быстро', value: 0.5},
+]
+
+export const PATHFINDING_ALGORITHMS: AlgorithmSelectType[] = [
+    {value: 'DIJKSTRA', name: 'Декстра'},
+    {value: 'BFS', name: 'Обход в ширину'},
+    {value: 'DFS', name: 'Обход в глубину'}
 ]
